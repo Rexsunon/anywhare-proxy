@@ -1,0 +1,22 @@
+{
+  "name": "smat-proxy",
+  "version": "1.0.0",
+  "description": "airsmat CORS proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://EvidenceRex@bitbucket.org/AirSmat/smat-proxy.git"
+  },
+  "author": "Evidence Rex Osikhena",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/AirSmat/smat-proxy#readme",
+  "dependencies": {
+    "apicache": "^1.6.2",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2"
+  }
+}
